@@ -13,9 +13,9 @@
 * __Telegram:__ VDA_09
 * __GitHub:__ [DVA09](https://github.com/DVA09)
 ----
-### About Me:  
+### About Me:
 
- I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.
+ > I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.
 ----
 ### Skills:
 * HTML
@@ -44,12 +44,15 @@ export function quantities(arr) {
 }
 ```
 ----
-### Courses:  
+### Courses:
 * Responsive Web Design on the [freeCodeCamp.org](freeCodeCamp.org)
 * JavaScript Algorithms and Data Structures on the [freeCodeCamp.org](freeCodeCamp.org)
 * Front End Development Libraries on the [freeCodeCamp.org](freeCodeCamp.org)
 * Front-End Basic [EPAM](EPAM)
 * Automated Testing Basics [EPAM](EPAM)
-* Automated Testing Basics in JavaScript 2.0[EPAM](EPAM)
+* Automated Testing Basics in JavaScript 2.0 [EPAM](EPAM)
 * Version Control with Git [EPAM](EPAM)
 ---
+### Languages:
+* English - Intermediate
+* Russian - Native
