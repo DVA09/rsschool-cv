@@ -1,1 +1,1 @@
-#test repo
+https://github.com/DVA09/rsschool-cv/blob/gh-pages/cv.md
