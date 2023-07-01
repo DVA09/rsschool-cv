@@ -14,7 +14,8 @@
 * __GitHub:__ [DVA09](https://github.com/DVA09)
 ----
 ### About Me:
-###### I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.
+
+ I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.
 ----
 ### Skills:
 * HTML
@@ -24,3 +25,21 @@
 * Version control: Git (remote service GitHub)
 * Figma
 * VSCode
+----
+### Code example:
+```javascript
+export function quantities(arr) {
+  const obj = {
+    noodles: 0,
+    sauce: 0
+  }
+  for (let i = 0; i <= arr.length; i++) {
+    if (arr[i] == 'noodles') {
+      obj.noodles += 50;
+    } else if (arr[i] == 'sauce') {
+      obj.sauce += 0.2;
+    }
+  }
+  return obj;
+}
+```
