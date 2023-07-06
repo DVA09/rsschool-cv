@@ -22,8 +22,8 @@
               <a href="#skills" class="navbar-link">Skills</a>
             </li>
             <li class="navbar-item">
-                <a href="#code" class="navbar-link">Code</a>
-              </li>
+              <a href="#code" class="navbar-link">Code</a>
+            </li>
             <li class="navbar-item">
               <a href="#courses" class="navbar-link">Courses</a>
             </li>
@@ -72,13 +72,38 @@
               </p>
             </section>
             <section class="section" id="skills">
-                <h2 class="section-heading">Skills</h2>
-                <ul class="section-list">
-                    <li class="section-item">Web-development: <span>HTML, CSS, JavaScript</span></li>
-                    <li class="section-item">Frameworks and libraries: <span>React</span></li>
-                    <li class="section-item">Version control: <span>Git (remote service GitHub)</span></li>
-                    <li class="section-item">Graphics <span>Figma</span></li>
-                </ul>
+              <h2 class="section-heading">Skills</h2>
+              <ul class="section-list">
+                <li class="section-item">
+                  Web-development: <span>HTML, CSS, JavaScript</span>
+                </li>
+                <li class="section-item">
+                  Frameworks and libraries: <span>React</span>
+                </li>
+                <li class="section-item">
+                  Version control: <span>Git (remote service GitHub)</span>
+                </li>
+                <li class="section-item">Graphics <span>Figma</span></li>
+              </ul>
+            </section>
+            <section class="section" id="code">
+              <h2 class="section-heading">Code</h2>
+              <pre class="preformatted">
+                    <code>export function quantities(arr) {
+                    const obj = {
+                      noodles: 0,
+                      sauce: 0
+                    }
+                    for (let i = 0; i <= arr.length; i++) {
+                      if (arr[i] == 'noodles') {
+                        obj.noodles += 50;
+                      } else if (arr[i] == 'sauce') {
+                        obj.sauce += 0.2;
+                      }
+                    }
+                    return obj;
+                  }</code>
+                </pre>
             </section>
           </div>
         </section>
