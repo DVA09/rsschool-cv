@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vladimir Deushev CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./images/cv_icon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/cv_icon.png">
   </head>
   <body>
     <header class="header">
@@ -28,16 +28,16 @@
               <a href="#courses" class="navbar-link">Courses</a>
             </li>
             <li class="navbar-item">
-              <a href="#english" class="navbar-link">English</a>
+              <a href="#english" class="navbar-link">Languages</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <div class="wrapper main container">
-        <section class="section profile">
-          <img src="./images/avatar.jpg" alt="Vladimir Deushev" />
+    <main class="main">
+      <div class="wrapper main-container">
+        <section class="section-profile">
+          <img src="./images/avatar.jpg" alt="photo" class="section-profile-logo">
           <div class="section-profile-heading">
             <h1 class="section-heading main-heading">Vladimir Deushev</h1>
             <h4 class="section-subheading">Junior Front-End Developer</h4>
@@ -90,22 +90,20 @@
         </section>
         <section class="section" id="code">
           <h2 class="section-heading">Code</h2>
-          <pre class="preformatted">
-                    <code>export function quantities(arr) {
-                    const obj = {
-                      noodles: 0,
-                      sauce: 0
-                    }
-                    for (let i = 0; i <= arr.length; i++) {
-                      if (arr[i] == 'noodles') {
-                        obj.noodles += 50;
-                      } else if (arr[i] == 'sauce') {
-                        obj.sauce += 0.2;
-                      }
-                    }
-                    return obj;
-                  }</code>
-                </pre>
+          <pre class="preformatted"><code>export function quantities(arr) {
+  const obj = {
+    noodles: 0,
+    sauce: 0
+  }
+  for (let i = 0; i &lt;= arr.length; i++) {
+    if (arr[i] == 'noodles') {
+      obj.noodles += 50;
+    } else if (arr[i] == 'sauce') {
+      obj.sauce += 0.2;
+    }
+  }
+  return obj;
+}</code></pre>
         </section>
         <section class="section" id="courses">
           <h2 class="section-heading">Courses</h2>
@@ -144,15 +142,11 @@
     <footer class="footer">
       <div class="container footer-container">
         <a href="https://github.com/DVA09">
-          <img class="github-icon" src="" alt="Github profile" />
-          <p>My GitHub</p>
+          <img class="github-icon" src="./images/github-footer.svg" alt="Github profile">
         </a>
         <p>© 2023</p>
-        <a href="https://rs.school/js/">
-          <img
-            src=""
-            alt="rsschool logo"
-          />
+        <a href="https://rs.school/js/" >
+          <img src="./images/rsschool.svg" alt="rsschool logo" class="rsschool-logo">
         </a>
       </div>
     </footer>
