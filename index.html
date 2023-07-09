@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladimir Deushev CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/cv_icon.png">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header-container">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#contacts" class="navbar-link">Contacts</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#summary" class="navbar-link">Summary</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#skills" class="navbar-link">Skills</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#code" class="navbar-link">Code</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#courses" class="navbar-link">Courses</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#english" class="navbar-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="wrapper main-container">
+        <section class="section-profile">
+          <img src="./images/avatar.jpg" alt="photo" class="section-profile-logo">
+          <div class="section-profile-heading">
+            <h1 class="section-heading main-heading">Vladimir Deushev</h1>
+            <h4 class="section-subheading">Junior Front-End Developer</h4>
+          </div>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-heading">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item contacts-item">Minsk, Belarus</li>
+            <li class="section-item contacts-item">
+              Email:
+              <a href="mailto:vdeushev91@gmail.com" title="email"
+                >vdeushev91@gmail.com</a
+              >
+            </li>
+            <li class="section-item contacts-item">
+              Discord:
+              <a href="https://discord.com" title="discord">DVA#7019</a>
+            </li>
+            <li class="section-item contacts-item">
+              Github:
+              <a href="https://github.com/DVA09" title="github">DVA09</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-heading">Summary</h2>
+          <p>
+            I am an enthusiastic, self-motivated, reliable, responsible and hard
+            working person. I am a mature team worker and adaptable to all
+            challenging situations. I am able to work well both in a team
+            environment as well as using own initiative. I am able to work well
+            under pressure and adhere to strict deadlines.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-heading">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Web-development: <span>HTML, CSS, JavaScript</span>
+            </li>
+            <li class="section-item">
+              Frameworks and libraries: <span>React</span>
+            </li>
+            <li class="section-item">
+              Version control: <span>Git (remote service GitHub)</span>
+            </li>
+            <li class="section-item">Graphics <span>Figma</span></li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-heading">Code</h2>
+          <pre class="preformatted"><code>export function quantities(arr) {
+  const obj = {
+    noodles: 0,
+    sauce: 0
+  }
+  for (let i = 0; i &lt;= arr.length; i++) {
+    if (arr[i] == 'noodles') {
+      obj.noodles += 50;
+    } else if (arr[i] == 'sauce') {
+      obj.sauce += 0.2;
+    }
+  }
+  return obj;
+}</code></pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-heading">Courses</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              FreeCodeCamp - <span>Responsive Web Design</span>
+            </li>
+            <li class="section-item">
+              FreeCodeCamp -
+              <span>JavaScript Algorithms and Data Structures</span>
+            </li>
+            <li class="section-item">
+              FreeCodeCamp - <span>Front End Development Libraries</span>
+            </li>
+            <li class="section-item">EPAM - <span>Front-End Basic</span></li>
+            <li class="section-item">
+              EPAM - <span>Automated Testing Basics</span>
+            </li>
+            <li class="section-item">
+              EPAM - <span>Automated Testing Basics in JavaScript 2.0</span>
+            </li>
+            <li class="section-item">
+              EPAM - <span>Version Control with Git</span>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-heading">Languages</h2>
+          <ul class="section-list">
+            <li class="section-item">English - <span>Intermediate</span></li>
+            <li class="section-item">Russian - <span>Native</span></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="https://github.com/DVA09">
+          <img class="github-icon" src="./images/github-footer.svg" alt="Github profile">
+        </a>
+        <p>© 2023</p>
+        <a href="https://rs.school/js/" >
+          <img src="./images/rsschool.svg" alt="rsschool logo" class="rsschool-logo">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
